@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LaCucina.ListPage"
+             BackgroundColor="#ffa64d">
+    <ContentPage.Content>
+        <Grid Margin="20,0, 20, 0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="140" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="40" />
+                <RowDefinition Height="40" />
+            </Grid.RowDefinitions>
+            <ListView  Grid.Row="1" 
+                       x:Name="MyListView" 
+                       ItemTapped="MyListView_ItemTapped"
+                       
+                        >
+                <ListView.ItemTemplate >
+                    <DataTemplate>
+                        <ImageCell TextColor="#ff471a" Text="{Binding Name}" />
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            
+            <Button Grid.Row="2" 
+                    Text="Dodaj przepis"
+                    Clicked="Add_Button_Clicked"
+                    x:Name="Add_Button" 
+                    BackgroundColor="#ff471a" 
+                    TextColor="White"/>
+
+
+            <Image x:Name="img"
+                   Grid.Row="0"
+                   HeightRequest="140"
+                   HorizontalOptions="Fill"
+                   Aspect="AspectFill"
+                   ></Image>
+
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

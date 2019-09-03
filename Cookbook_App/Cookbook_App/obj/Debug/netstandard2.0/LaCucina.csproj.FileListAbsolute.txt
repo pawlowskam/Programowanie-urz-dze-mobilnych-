@@ -1,0 +1,16 @@
+C:\Users\Dziubąsik\Desktop\Cookbook-master\Cookbook-master\Cookbook_App\Cookbook_App\Cookbook_App\bin\Debug\netstandard2.0\LaCucina.deps.json
+C:\Users\Dziubąsik\Desktop\Cookbook-master\Cookbook-master\Cookbook_App\Cookbook_App\Cookbook_App\bin\Debug\netstandard2.0\LaCucina.dll
+C:\Users\Dziubąsik\Desktop\Cookbook-master\Cookbook-master\Cookbook_App\Cookbook_App\Cookbook_App\bin\Debug\netstandard2.0\LaCucina.pdb
+C:\Users\Dziubąsik\Desktop\Cookbook-master\Cookbook-master\Cookbook_App\Cookbook_App\Cookbook_App\obj\Debug\netstandard2.0\LaCucina.csprojAssemblyReference.cache
+C:\Users\Dziubąsik\Desktop\Cookbook-master\Cookbook-master\Cookbook_App\Cookbook_App\Cookbook_App\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Dziubąsik\Desktop\Cookbook-master\Cookbook-master\Cookbook_App\Cookbook_App\Cookbook_App\obj\Debug\netstandard2.0\CategoryPage.xaml.g.cs
+C:\Users\Dziubąsik\Desktop\Cookbook-master\Cookbook-master\Cookbook_App\Cookbook_App\Cookbook_App\obj\Debug\netstandard2.0\DetailPage.xaml.g.cs
+C:\Users\Dziubąsik\Desktop\Cookbook-master\Cookbook-master\Cookbook_App\Cookbook_App\Cookbook_App\obj\Debug\netstandard2.0\FormPage.xaml.g.cs
+C:\Users\Dziubąsik\Desktop\Cookbook-master\Cookbook-master\Cookbook_App\Cookbook_App\Cookbook_App\obj\Debug\netstandard2.0\ListPage.xaml.g.cs
+C:\Users\Dziubąsik\Desktop\Cookbook-master\Cookbook-master\Cookbook_App\Cookbook_App\Cookbook_App\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Dziubąsik\Desktop\Cookbook-master\Cookbook-master\Cookbook_App\Cookbook_App\Cookbook_App\obj\Debug\netstandard2.0\LaCucina.csproj.CoreCompileInputs.cache
+C:\Users\Dziubąsik\Desktop\Cookbook-master\Cookbook-master\Cookbook_App\Cookbook_App\Cookbook_App\obj\Debug\netstandard2.0\LaCucina.AssemblyInfoInputs.cache
+C:\Users\Dziubąsik\Desktop\Cookbook-master\Cookbook-master\Cookbook_App\Cookbook_App\Cookbook_App\obj\Debug\netstandard2.0\LaCucina.AssemblyInfo.cs
+C:\Users\Dziubąsik\Desktop\Cookbook-master\Cookbook-master\Cookbook_App\Cookbook_App\Cookbook_App\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Dziubąsik\Desktop\Cookbook-master\Cookbook-master\Cookbook_App\Cookbook_App\Cookbook_App\obj\Debug\netstandard2.0\LaCucina.dll
+C:\Users\Dziubąsik\Desktop\Cookbook-master\Cookbook-master\Cookbook_App\Cookbook_App\Cookbook_App\obj\Debug\netstandard2.0\LaCucina.pdb

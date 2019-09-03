@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LaCucina.DetailPage">
+    <ContentPage.Content>
+        <ScrollView>
+            <Grid Margin="10,20,20,10">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="40"/>
+                    <!--0-->
+                    <RowDefinition Height="40"/>
+                    <!--1-->
+                    <RowDefinition Height="Auto"/>
+                    <!--2-->
+                    <RowDefinition Height="40"/>
+                    <!--3-->
+                    <RowDefinition Height="Auto"/>
+                    <!--4-->
+                    <RowDefinition Height="50"/>
+                    <!--5-->
+                    <RowDefinition Height="50"/>
+                    <!--6-->
+                    <RowDefinition Height="50"/>
+                    <!--7-->
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Label x:Name="lblTitle" Font="Bold,20" Text="{Binding Name}" Grid.Column="0" Margin="0,0,0,10"/>
+                <Image Grid.Row="0" x:Name="imgOfDish" Grid.Column="1" Margin="20,0,0,20"  Grid.RowSpan="2"/>
+
+                <Label x:Name="Ingredients" Text="Składniki" Grid.Row="1" TextColor="Gray" Margin="0,0,0,5" />
+                <!--   <Label x:Name="AllIng" Text="{Binding Ingredient}" Grid.Row="2" Grid.ColumnSpan="2" Margin="20,0,0,20"/> -->
+
+                <StackLayout x:Name="StackIngList"  Grid.Row="2" Grid.ColumnSpan="2" Margin="0,0,0,5">
+                    <Label x:Name="ingList" />
+                </StackLayout>
+
+                <Label x:Name="Recipe" Text="Przepis" Grid.Row="3" TextColor="Gray" Margin="0,0,0,5"/>
+                <Label Grid.Row="4" Text="{Binding Recipe_Text_Area}" Grid.ColumnSpan="2" Margin="0,0,0,10"/>
+
+                <Image Grid.Row="5" x:Name="imgRate" HorizontalOptions="Center"  Grid.ColumnSpan="2" Margin="0,20,20,0" />
+
+                <Button Text="Edytuj"  Grid.Row="6" Grid.Column="0" Clicked="Edit_Clicked" BackgroundColor="#ffa64d" TextColor="White"/>
+                <Button Text="Usuń"  Grid.Row="6" Grid.Column="1" Clicked="Delete_Clicked" BackgroundColor="#ffa64d" TextColor="White"/>
+                <Button Text="Udostępnij"  Grid.Row="7" Clicked="Add_Clicked" Grid.ColumnSpan="2" BackgroundColor="#ffa64d" TextColor="White"/>
+            </Grid>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
